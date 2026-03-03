@@ -1,3 +1,5 @@
+# A URL is generally written like: scheme://host/path... where the scheme is something like http or https, then ://, then a host (domain or IP), and optionally a path/query after that
+
 def is_valid_url(url):
     # 1) Must start with a known scheme + ://
     if not (url.startswith("http://") or url.startswith("https://")):
